@@ -819,11 +819,11 @@ a:focus {
 .video-label {
   position: absolute;
   top: 15px;
-  padding: 6px 12px;
+  padding: 4px 8px;
   background: rgba(0, 0, 0, 0.75);
   color: white;
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: 0.7rem;
   border-radius: var(--border-radius);
   z-index: 10;
   backdrop-filter: blur(10px);
