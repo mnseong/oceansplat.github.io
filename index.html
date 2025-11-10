@@ -391,9 +391,9 @@
         <h2 class="title is-3">Methodology</h2>
         <!-- Framework Figure -->
         <div class="methodology-figure">
-          <img src="static/images/framework.png" alt="Overall framework of OceanSplat" class="framework-image"/>
+          <img src="static/images/oceansplat.png" alt="Overall framework of OceanSplat" class="framework-image"/>
           <p class="figure-caption">
-            <strong>Figure 1: Overall Framework.</strong> Our method consists of three main components: (1) Object-aware Gaussian initialization with underwater-specific priors, (2) Trinocular view consistency module for robust geometric constraints, and (3) Adaptive density control for handling dynamic underwater scenes. The framework processes multi-view underwater images to reconstruct high-quality 3D scenes.
+            <strong>Figure 1: Overview of our OceanSplat.</strong> We enforce trinocular consistency by inverse warping rasterized outputs from two orthogonal views to guide 3D Gaussian placement. From these views, we derive a synthetic epipolar depth prior via triangulation to provide self-supervised geometric constraints. Additionally, depth-aware alpha adjustment suppresses erroneous 3D Gaussians early and aligns rendered depth with the Gaussian z-component to prevent floaters in novel views.
           </p>
         </div>
         
