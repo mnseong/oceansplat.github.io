@@ -296,8 +296,6 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Method Comparison</h2>
-      
       <!-- Two comparison containers side by side -->
       <div class="comparison-grid">
         
@@ -377,7 +375,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            We introduce OceanSplat, a novel method that captures geometric structures in scattering media with high fidelity for real-time 3D underwater scene representation. In underwater environments, attenuation and scattering degrade 3D scene fidelity by generating visual artifacts. To address this issue, we propose a trinocular view consistency, which enforces geometric alignment across views translated along two orthogonal axes, thereby constraining the spatial placement of 3D Gaussians and preserving object geometry under complex scattering conditions. Additionally, we design a self-supervised geometric regularization module that reuses synthetic camera translations to generate an epipolar depth prior, which helps suppress medium-induced misplacement of 3D Gaussians. Moreover, we propose a depth-aware alpha adjustment module that uses directional and depth cues to guide visibility learning in the early stages of training, preventing erroneous placements and medium entanglement. Our method effectively represents 3D scenes under scattering media without external geometric cues by preventing foreground 3D Gaussians from erroneously contributing to the medium in novel views, thereby preserving overall scene quality. Experiments on real-world underwater and simulated scenes demonstrate that our method outperforms prior approaches in 3D scene representation under scattering media.
           </p>
         </div>
       </div>
