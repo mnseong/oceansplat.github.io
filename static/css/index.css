@@ -120,6 +120,7 @@ body {
     color: var(--text-primary) !important;
     margin-bottom: 2rem !important;
     line-height: 1.1 !important;
+    font-size: 2.5rem !important;
 }
 
 .publication-banner {
@@ -748,16 +749,3 @@ a:focus {
     box-shadow: none !important;
   }
 }
-
-.hero .column.has-text-centered {
-  max-width: 100% !important;
-  width: 100% !important;
-}
-
-.hero .publication-title {
-  max-width: 90vw !important;
-  margin: 0 auto 2rem auto !important;
-  display: block;
-  text-align: center;
-}
-
