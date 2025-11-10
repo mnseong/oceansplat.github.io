@@ -823,7 +823,7 @@ a:focus {
   background: rgba(0, 0, 0, 0.75);
   color: white;
   font-weight: 600;
-  font-size: 0.7rem;
+  font-size: 0.85rem;
   border-radius: var(--border-radius);
   z-index: 10;
   backdrop-filter: blur(10px);
