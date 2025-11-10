@@ -114,7 +114,8 @@ body {
 
 
 /* Publication Content Styling */
-.publication-title {
+.hero .publication-title {
+    width: 100vw;
     font-family: 'Inter', sans-serif !important;
     font-weight: 800 !important;
     color: var(--text-primary) !important;
