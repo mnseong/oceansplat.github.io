@@ -114,8 +114,7 @@ body {
 
 
 /* Publication Content Styling */
-.hero .publication-title {
-    width: 100vw;
+.publication-title {
     font-family: 'Inter', sans-serif !important;
     font-weight: 800 !important;
     color: var(--text-primary) !important;
@@ -750,5 +749,15 @@ a:focus {
   }
 }
 
+.hero .column.has-text-centered {
+  max-width: 100% !important;
+  width: 100% !important;
+}
 
+.hero .publication-title {
+  max-width: 90vw !important;
+  margin: 0 auto 2rem auto !important;
+  display: block;
+  text-align: center;
+}
 
