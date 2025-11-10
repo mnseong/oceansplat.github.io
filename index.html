@@ -297,44 +297,92 @@
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Method Comparison</h2>
-      <div class="video-comparison-container">
-        <h4 class="video-title">WaterSplatting vs OceanSplat(Ours)</h4>
+      
+      <!-- Two comparison containers side by side -->
+      <div class="comparison-grid">
         
-        <div class="video-compare-wrapper">
-          <!-- Left Video (Your Method) -->
-          <div class="video-left">
-            <video id="video-left" loop muted playsinline preload="metadata">
-              <source src="static/videos/baseline.mp4" type="video/mp4">
-            </video>
-            <div class="video-label label-left">WaterSplatting</div>
-          </div>
+        <!-- First Comparison -->
+        <div class="video-comparison-container">
+          <h4 class="video-title">Scene 1: WaterSplatting vs OceanSplat(Ours)</h4>
           
-          <!-- Right Video (Baseline) -->
-          <div class="video-right">
-            <video id="video-right" loop muted playsinline preload="metadata">
-              <source src="static/videos/oceansplat.mp4" type="video/mp4">
-            </video>
-            <div class="video-label label-right">OceanSplat(Ours)</div>
-          </div>
-          
-          <!-- Slider -->
-          <div class="comparison-slider" id="comparison-slider">
-            <div class="slider-button">
-              <i class="fas fa-chevron-left"></i>
-              <i class="fas fa-chevron-right"></i>
+          <div class="video-compare-wrapper">
+            <!-- Left Video -->
+            <div class="video-left">
+              <video id="video-left-1" loop muted playsinline preload="metadata">
+                <source src="static/videos/baseline1.mp4" type="video/mp4">
+              </video>
+              <div class="video-label label-left">WaterSplatting</div>
+            </div>
+            
+            <!-- Right Video -->
+            <div class="video-right">
+              <video id="video-right-1" loop muted playsinline preload="metadata">
+                <source src="static/videos/oceansplat1.mp4" type="video/mp4">
+              </video>
+              <div class="video-label label-right">OceanSplat(Ours)</div>
+            </div>
+            
+            <!-- Slider -->
+            <div class="comparison-slider" id="comparison-slider-1">
+              <div class="slider-button">
+                <i class="fas fa-chevron-left"></i>
+                <i class="fas fa-chevron-right"></i>
+              </div>
             </div>
           </div>
+          
+          <!-- Play/Pause Button -->
+          <div class="video-controls">
+            <button class="button is-primary play-pause-btn" data-comparison="1">
+              <span class="icon">
+                <i class="fas fa-play"></i>
+              </span>
+              <span>Play</span>
+            </button>
+          </div>
         </div>
         
-        <!-- Play/Pause Button -->
-        <div class="video-controls">
-          <button class="button is-primary" id="play-pause-btn" onclick="togglePlayPause()">
-            <span class="icon">
-              <i class="fas fa-play" id="play-icon"></i>
-            </span>
-            <span>Play</span>
-          </button>
+        <!-- Second Comparison -->
+        <div class="video-comparison-container">
+          <h4 class="video-title">Scene 2: WaterSplatting vs OceanSplat(Ours)</h4>
+          
+          <div class="video-compare-wrapper">
+            <!-- Left Video -->
+            <div class="video-left">
+              <video id="video-left-2" loop muted playsinline preload="metadata">
+                <source src="static/videos/baseline2.mp4" type="video/mp4">
+              </video>
+              <div class="video-label label-left">WaterSplatting</div>
+            </div>
+            
+            <!-- Right Video -->
+            <div class="video-right">
+              <video id="video-right-2" loop muted playsinline preload="metadata">
+                <source src="static/videos/oceansplat2.mp4" type="video/mp4">
+              </video>
+              <div class="video-label label-right">OceanSplat(Ours)</div>
+            </div>
+            
+            <!-- Slider -->
+            <div class="comparison-slider" id="comparison-slider-2">
+              <div class="slider-button">
+                <i class="fas fa-chevron-left"></i>
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Play/Pause Button -->
+          <div class="video-controls">
+            <button class="button is-primary play-pause-btn" data-comparison="2">
+              <span class="icon">
+                <i class="fas fa-play"></i>
+              </span>
+              <span>Play</span>
+            </button>
+          </div>
         </div>
+        
       </div>
     </div>
   </div>
